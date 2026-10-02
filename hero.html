@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student Information </title>
+    <style>
+        .internal-style{
+            color: darkblue;
+            font-size: 20px;
+
+        }
+            .from-heading{
+                color: purple;
+                text-align: center;
+            }
+        
+        header {
+            padding: 10px;
+            background-color: rgb(84, 84, 212);
+            text-align: center;
+        }
+       header h1{
+            color: white;
+            font-size: 35px;
+        }
+        header p{
+color: red;
+       font-size: 30px;
+
+        }
+        nav{
+            background-color: black;
+            text-align: center;
+            padding: 15px;
+            
+        }
+        nav a{
+            
+            color: white;
+            text-align: center;
+            margin: 2px;
+            font-size: 18px;
+        }
+        .card{
+            width: 300px;
+            padding: 20px;
+            text-align: center;
+            border: 1px solid gray;
+            border-radius: 10px;
+            box-shadow: 0 0 10px gray;
+
+        }
+        .card img{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid blue;
+        }
+        section{
+            display: flex;
+            justify-content: center;
+            
+        }
+        th{
+            background-color: rgb(196, 226, 3);
+        }
+     table, th , td{
+             border: 1px solid black;
+              border-collapse: collapse;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+    <h1>student Information portal</h1>
+    <p1 style="color: brown; font-size: 30px;">Information about student</p1>
+    </header>
+    <nav>
+        <a href="home.html"target="content">home</a>
+                <a href="aout"target="content">about</a>
+
+                        <a href="skill"target="content">skill</a>
+
+                                <a href="student"target="content">student</a>
+
+                                        <a href="egister"target="content">register</a>
+
+    </nav>
+    <section id="home">
+        <div class="card">
+    <h2 >about</h2>
+    <a href="https://www.google.com/" target="_blank">
+        <img src="https://uploads.onecompiler.io/43xads5k4/1788149830810/1000511910.png"
+        alt="student profile image"
+        class="profile image"
+        width="300px"
+        height="400px">
+    </a>
+    <h2 class="internal-style">Rohit sharma</h2>
+    <p class="from-heading">I am student of b tech secend year student i am intrusted in web desinning</p>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="card">
+    <h2>My skills</h2>
+    
+        <h2>Technical skills</h2>
+        <ol>
+            <li>html</li>
+                        <li>python</li>
+
+                                    <li>java</li>
+
+                                                <li>css</li>
+
+        </ol>
+        <h2>My hobbies</h2>  
+        <ul>
+            <li>readig</li>
+                        <li>music</li>
+
+                                    <li>tour</li>
+
+                                                <li>research</li>
+
+        </ul>                      
+        </div>                 
+    </section>
+<section id="STUDENT">
+    <div class="card">
+    <table >
+        <tr >
+            <th>NAME</th>
+                        <th>ROLL NO</th>
+
+                                    <th>COURSE</th>
+                                                <th>MARKS</th>
+
+
+
+        </tr>
+        <tr>
+            <td>rohit sharma</td>
+                        <td>35</td>
+
+                                    <td>b tech</td>
+
+                                                <td>1136</td>
+
+        </tr>
+        <tr>
+            <td>ms dhoni</td>
+                        <td>46</td>
+
+                                    <td>b tech</td>
+
+                                                <td>1246</td>
+
+        </tr>
+    </table>
+    </div>
+</section>
+<section id="REGISTRATION form">
+    <div class="card">
+    <h3>STUDENT REGISTRATION FORM</h3>
+    <form>
+        <label >NAME</label>
+        <input type="text"required placeholder="enter your name"><br><br>
+                <label >password</label>
+                        <input type="number"required placeholder="enter password">
+
+
+    </form><br><br>
+    <p>gender</p>
+    <label for="male">male</label>
+    <input type="radio"
+            id="male"
+            name="gender" 
+            value="male">
+    <br>
+    <label for="female">female</label>
+        <input type="radio"
+                id="female"
+                name="gener"
+                value="female">
+    </div>
+</section>
+</body>
+</html>
